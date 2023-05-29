@@ -123,11 +123,12 @@ button {
     margin-right: 20px;
     width: 80px;
     border-radius:2em;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: 600;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align: center;
     position: relative;
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
 }
 
 button:hover {
@@ -135,13 +136,34 @@ button:hover {
     cursor: pointer;
 }
 
+/* main section styling */
+
 .main {
+    padding: var(--pdg);
     background-color: var(--bg-color);
     grid-area: 2 / 2 / 3 / 3;
     
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, min-content);
+}
+
+.card {
+    margin: 15px;
+    padding: var(--pdg);
+    background-color: var(--second-bg-color);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card p {
+    margin-bottom: 30px;
+}
+
+.card-options {
+    display: flex;
+    justify-content: right;
+    gap: var(--pdg);
 }
 
 .projects {
