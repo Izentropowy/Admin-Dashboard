@@ -1,0 +1,37 @@
+:root {
+    --main-color: #818cf8;
+    --second-color: #a21caf;
+    --bg-color: #fafaf9;
+    --second-bg-color: wheat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+svg {
+    height: 30px;
+    width: auto;
+    color: black;
+    fill: currentColor;
+}
+
+img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: var(--main-color);
+}
+
+header {
+    background-color: var(--second-bg-color);
+}
+
+.main {
+    background-color: var(--bg-color);
+}
