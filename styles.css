@@ -177,9 +177,9 @@ button:hover {
     gap: var(--pdg);
 }
 
-/* announcements styling */
+/* announcements and trending styling */
 
-.announcements div {
+.announcements div, .trending > div {
     margin: 15px;
     padding: var(--pdg);
     background-color: var(--second-bg-color);
@@ -196,5 +196,14 @@ button:hover {
     margin-bottom: 20px;
     border-color: #f5f5f5;
 }
+
+.member {
+    padding: var(--pdg);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 0.8rem;
+}
+
 
 
