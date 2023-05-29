@@ -84,6 +84,57 @@ header {
     grid-area: 1 / 2 / 2 / 3;
 }
 
+.searchbar, .info {
+    padding: var(--pdg);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: var(--pdg);
+}
+
+.searchbar{
+    padding-bottom: 0;
+}
+
+.searchbar img {
+    height: 50px;
+    width: auto;
+}
+
+.searchbar > *, .info > * {
+    display: flex;
+    align-items: center;
+    gap: var(--pdg);
+    margin-left: 25px;
+}
+
+#search {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid transparent;
+    height: 25px;
+    width: 80%;
+    max-width: 500px;
+}
+
+button {
+    background-color: var(--main-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    width: 80px;
+    border-radius:2em;
+    text-decoration:none;
+    font-weight: 600;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align: center;
+    position: relative;
+}
+
+button:hover {
+    top: -2px;
+    cursor: pointer;
+}
+
 .main {
     background-color: var(--bg-color);
     grid-area: 2 / 2 / 3 / 3;
