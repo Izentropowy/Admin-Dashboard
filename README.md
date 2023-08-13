@@ -1,4 +1,4 @@
-## **admin Dashboard**
+## **Admin Dashboard**
 
 <div align=center>
 <img src='/previev.png' alt='project-cover'>
